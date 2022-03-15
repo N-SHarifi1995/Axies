@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'fa-brands-400';
+    src: url('../fonts/fa-brands-400.eot') format('eot'), url('../fonts/fa-brands-400.ttf') format('truetype'), url('../fonts/fa-brands-400.woff') format('woff'), url('../fonts/fa-brands-400.woff2') format('woff2');
+    font-family: 'fa-doutone-900';
+    src: url('../fonts/fa-doutone-900.eot') format('eot'), url('../fonts/fa-doutone-900.ttf') format('truetype'), url('../fonts/fa-doutone-900.woff') format('woff'), url('../fonts/fa-doutone-900.woff2') format('woff2');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+ :root {
+    --mainColor: #14141F;
+    --darkBlue: #343444;
+    --lightpurple: #9550E5;
+    --lightBlue: #5142fb;
+}
+
+body {
+    background-color: var(--mainColor);
+}
