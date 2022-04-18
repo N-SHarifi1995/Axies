@@ -17,8 +17,10 @@
     --darkBlue: #343444;
     --lightpurple: #9550E5;
     --lightBlue: #5142fb;
+    --darkest: #030303;
 }
 
 body {
     background-color: var(--mainColor);
+    overflow-x: hidden;
 }
