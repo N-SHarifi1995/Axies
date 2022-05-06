@@ -1,4 +1,12 @@
 let items = document.querySelectorAll(".item");
+let coverr = document.querySelector(".coverr");
+
+setTimeout(() => {
+    coverr.style.display = 'none';
+    document.body.scrollTop = 0;
+    document.body.style.overflow = 'auto'
+
+}, 4000);
 
 items.forEach((ele) => {
     ele.addEventListener("mouseover", () => {

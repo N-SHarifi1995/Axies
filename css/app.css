@@ -12,6 +12,34 @@
     font-family: Arial, Helvetica, sans-serif
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: var(--darkBlue);
+    border-radius: 10px;
+    height: min-content;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #626272;
+}
+
  :root {
     --mainColor: #14141F;
     --darkBlue: #343444;
